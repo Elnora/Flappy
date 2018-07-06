@@ -1,33 +1,14 @@
 fileFormatVersion: 2
-guid: 65afdea1e27368c4a80012a1e3e58c99
+guid: 69353816700a72648b575049d726e5a6
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
-    100000: Cloud
-    100002: Cloud_001
-    100004: Plane
-    100006: Plane_001
-    100008: //RootNode
-    400000: Cloud
-    400002: Cloud_001
-    400004: Plane
-    400006: Plane_001
-    400008: //RootNode
-    2100000: unnamed
-    2300000: Cloud
-    2300002: Cloud_001
-    2300004: Plane
-    2300006: Plane_001
-    3300000: Cloud
-    3300002: Cloud_001
-    3300004: Plane
-    3300006: Plane_001
-    4300000: Cloud_001
-    4300002: Plane_001
-    4300004: Plane
-    4300006: Cloud
-    7400000: Default Take
-    9500000: //RootNode
+    100000: //RootNode
+    400000: //RootNode
+    2100000: No Name
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: Cloud.001
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -103,7 +84,7 @@ ModelImporter:
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 2
+  animationType: 0
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
