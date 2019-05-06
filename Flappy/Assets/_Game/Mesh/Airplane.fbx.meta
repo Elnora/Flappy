@@ -1,80 +1,224 @@
 fileFormatVersion: 2
 guid: 702fdea8380e1774dbe34b438ae0c274
 ModelImporter:
-  serializedVersion: 22
-  fileIDToRecycleName:
-    100000: //RootNode
-    100002: Cylinder.005
-    100004: Cylinder.006
-    100006: Cylinder.007
-    100008: Cylinder.008
-    100010: PlaneBody
-    100012: PlaneWingDown
-    100014: PlaneWingUp
-    100016: Support
-    100018: Support.001
-    100020: Support.002
-    100022: Support.003
-    100024: Tail
-    100026: TailTop.001
-    400000: //RootNode
-    400002: Cylinder.005
-    400004: Cylinder.006
-    400006: Cylinder.007
-    400008: Cylinder.008
-    400010: PlaneBody
-    400012: PlaneWingDown
-    400014: PlaneWingUp
-    400016: Support
-    400018: Support.001
-    400020: Support.002
-    400022: Support.003
-    400024: Tail
-    400026: TailTop.001
-    2100000: Material.001
-    2100002: Metal
-    2100004: Red
-    2100006: DarkGrey
-    2100008: White
-    2300000: Cylinder.005
-    2300002: Cylinder.006
-    2300004: Cylinder.007
-    2300006: Cylinder.008
-    2300008: PlaneBody
-    2300010: PlaneWingDown
-    2300012: PlaneWingUp
-    2300014: Support
-    2300016: Support.001
-    2300018: Support.002
-    2300020: Support.003
-    2300022: Tail
-    2300024: TailTop.001
-    3300000: Cylinder.005
-    3300002: Cylinder.006
-    3300004: Cylinder.007
-    3300006: Cylinder.008
-    3300008: PlaneBody
-    3300010: PlaneWingDown
-    3300012: PlaneWingUp
-    3300014: Support
-    3300016: Support.001
-    3300018: Support.002
-    3300020: Support.003
-    3300022: Tail
-    3300024: TailTop.001
-    4300000: TailTop.001
-    4300002: Cylinder.007
-    4300004: Cylinder.005
-    4300006: PlaneWingUp
-    4300008: PlaneBody
-    4300010: Tail
-    4300012: Support.003
-    4300014: Support.002
-    4300016: Support.001
-    4300018: Support
-    4300020: PlaneWingDown
-    4300022: Cylinder.008
-    4300024: Cylinder.006
+  serializedVersion: 25
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: //RootNode
+  - first:
+      1: 100002
+    second: Cylinder.005
+  - first:
+      1: 100004
+    second: Cylinder.006
+  - first:
+      1: 100006
+    second: Cylinder.007
+  - first:
+      1: 100008
+    second: Cylinder.008
+  - first:
+      1: 100010
+    second: PlaneBody
+  - first:
+      1: 100012
+    second: PlaneWingDown
+  - first:
+      1: 100014
+    second: PlaneWingUp
+  - first:
+      1: 100016
+    second: Support
+  - first:
+      1: 100018
+    second: Support.001
+  - first:
+      1: 100020
+    second: Support.002
+  - first:
+      1: 100022
+    second: Support.003
+  - first:
+      1: 100024
+    second: Tail
+  - first:
+      1: 100026
+    second: TailTop.001
+  - first:
+      4: 400000
+    second: //RootNode
+  - first:
+      4: 400002
+    second: Cylinder.005
+  - first:
+      4: 400004
+    second: Cylinder.006
+  - first:
+      4: 400006
+    second: Cylinder.007
+  - first:
+      4: 400008
+    second: Cylinder.008
+  - first:
+      4: 400010
+    second: PlaneBody
+  - first:
+      4: 400012
+    second: PlaneWingDown
+  - first:
+      4: 400014
+    second: PlaneWingUp
+  - first:
+      4: 400016
+    second: Support
+  - first:
+      4: 400018
+    second: Support.001
+  - first:
+      4: 400020
+    second: Support.002
+  - first:
+      4: 400022
+    second: Support.003
+  - first:
+      4: 400024
+    second: Tail
+  - first:
+      4: 400026
+    second: TailTop.001
+  - first:
+      21: 2100000
+    second: Material.001
+  - first:
+      21: 2100002
+    second: Metal
+  - first:
+      21: 2100004
+    second: Red
+  - first:
+      21: 2100006
+    second: DarkGrey
+  - first:
+      21: 2100008
+    second: White
+  - first:
+      23: 2300000
+    second: Cylinder.005
+  - first:
+      23: 2300002
+    second: Cylinder.006
+  - first:
+      23: 2300004
+    second: Cylinder.007
+  - first:
+      23: 2300006
+    second: Cylinder.008
+  - first:
+      23: 2300008
+    second: PlaneBody
+  - first:
+      23: 2300010
+    second: PlaneWingDown
+  - first:
+      23: 2300012
+    second: PlaneWingUp
+  - first:
+      23: 2300014
+    second: Support
+  - first:
+      23: 2300016
+    second: Support.001
+  - first:
+      23: 2300018
+    second: Support.002
+  - first:
+      23: 2300020
+    second: Support.003
+  - first:
+      23: 2300022
+    second: Tail
+  - first:
+      23: 2300024
+    second: TailTop.001
+  - first:
+      33: 3300000
+    second: Cylinder.005
+  - first:
+      33: 3300002
+    second: Cylinder.006
+  - first:
+      33: 3300004
+    second: Cylinder.007
+  - first:
+      33: 3300006
+    second: Cylinder.008
+  - first:
+      33: 3300008
+    second: PlaneBody
+  - first:
+      33: 3300010
+    second: PlaneWingDown
+  - first:
+      33: 3300012
+    second: PlaneWingUp
+  - first:
+      33: 3300014
+    second: Support
+  - first:
+      33: 3300016
+    second: Support.001
+  - first:
+      33: 3300018
+    second: Support.002
+  - first:
+      33: 3300020
+    second: Support.003
+  - first:
+      33: 3300022
+    second: Tail
+  - first:
+      33: 3300024
+    second: TailTop.001
+  - first:
+      43: 4300000
+    second: TailTop.001
+  - first:
+      43: 4300002
+    second: Cylinder.007
+  - first:
+      43: 4300004
+    second: Cylinder.005
+  - first:
+      43: 4300006
+    second: PlaneWingUp
+  - first:
+      43: 4300008
+    second: PlaneBody
+  - first:
+      43: 4300010
+    second: Tail
+  - first:
+      43: 4300012
+    second: Support.003
+  - first:
+      43: 4300014
+    second: Support.002
+  - first:
+      43: 4300016
+    second: Support.001
+  - first:
+      43: 4300018
+    second: Support
+  - first:
+      43: 4300020
+    second: PlaneWingDown
+  - first:
+      43: 4300022
+    second: Cylinder.008
+  - first:
+      43: 4300024
+    second: Cylinder.006
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -85,12 +229,17 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Metal
-    second: {fileID: 2100000, guid: dce6a756ed242c74f9d22a475c067f64, type: 2}
+    second: {fileID: 2100000, guid: 0da0d35627d726447a1fc2df7f3f221d, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Red
     second: {fileID: 2100000, guid: ddb400f18f3500f4e92d821bf23e9157, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: White
+    second: {fileID: 2100000, guid: 24058451db4d1df4ca1cca272a7ba944, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -124,6 +273,7 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
@@ -131,10 +281,13 @@ ModelImporter:
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
     preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
@@ -146,10 +299,14 @@ ModelImporter:
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -159,8 +316,8 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: 
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
